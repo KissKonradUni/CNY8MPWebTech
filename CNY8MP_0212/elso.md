@@ -42,3 +42,10 @@ git pull
 ```
 
 > A remote állomáson történt változtatásokat elvégzi a lokális másolaton.
+
+## Git log
+```
+git log
+```
+
+> Megmutatja a commitokkal keletkezett változtatásokat.
