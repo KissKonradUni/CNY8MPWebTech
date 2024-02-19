@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szókirakó</title>
+    <style>
+        body {
+            text-align: justify;
+        }
+
+        .red {
+            color: red;
+        }
+        .yellow {
+            color: yellow;
+        }
+        .blue {
+            color: blue;
+        }
+        .green {
+            color: green;
+        }
+        .yellowgreen {
+            color: yellowgreen;
+        }
+
+        .right {
+            text-align: right;
+        }
+        .middle {
+            text-align: center;
+        }
+
+        .consolas {
+            font-family: consolas, monospace;
+        }
+        .comicsans {
+            font-family: "Comic Sans MS", cursive;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="red">SZÓKIRAKÓ JÁTÉK</h3>
+    <i>Adott egy 4*9-es négyzetháló.</i> A <b>program</b> megad egy - a négyzetháló feletti képhez<br>
+    kapcsolódó - szót vagy mondatot, majd ennek betűit <span class="blue">összekeverve</span> elhelyezi ebben a<br>
+    négyzethálóban.
+    <div class="right">
+        <h2>A játékos feladata az, hogy az összekevert betűkből kirakja a szót</h2>
+        vagy mondatot a kijelölt helyen. <u>A betűket vízszintes vagy függőleges irányban egyenként<br> lehet mozgatni.</u>
+    </div>
+    <div class="mid">
+        Ha a betű útját elállja egy másik betű, akkor az csak a másik betűig tolódik el.
+    </div>
+    Miután sikerült a betűket a megfelelő helyre mozgatni, a program ezt jelzi, ha viszont valamely 
+    betűket felcseréltük, <span class="consolas">akkor azokra színkiemeléssel hívja fel a</span><br>
+    <span class="comicsans yellow">figyelmünket.</span>
+    <br>
+    <h3 class="red">Derékszögű háromszögben igaz Pitagorasz tétele:</h3>
+    <b><span class="red">a<sup>2</sup></span> + <span class="blue">b<sup>2</sup></span> = <span class="yellowgreen">c<sup>2</sup></span></b>
+    <br><br>
+    <h3 class="blue">Általános háromszögek esetén is igaz:</h3>
+    <b><span class="green">&alpha; + &beta; + &gamma; = 180&deg;</span></b>
+</body>
+</html>
