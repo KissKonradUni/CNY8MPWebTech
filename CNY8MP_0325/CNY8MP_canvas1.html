@@ -45,11 +45,10 @@
 
         kksx.fillText('Mérnökinformatika 2024', 200, 40);
 
-        const gradient = kksx.createRadialGradient(200, 120, 20, 250, 150, 100);
-        gradient.addColorStop(0, 'yellow');
-        gradient.addColorStop(0.25, 'orange');
-        gradient.addColorStop(0.5, 'blue');
-        gradient.addColorStop(1, 'green');
+        const gradient = kksx.createRadialGradient(175, 100, 10, 200, 110, 75);
+        gradient.addColorStop(0, '#ffcc00');
+        gradient.addColorStop(0.3, '#6600ff');
+        gradient.addColorStop(1, '#33ff33');
 
         kksx.fillStyle = gradient;
         kksx.fillRect(100, 60, 200, 120);
@@ -65,7 +64,7 @@
         kksx.lineWidth = 3;
 
         kksx.beginPath();
-        kksx.arc(500, 140, 70, Math.PI * 0.25, Math.PI * 1.5);
+        kksx.arc(500, 140, 70, Math.PI * 0.3, Math.PI * 1.5);
         kksx.fill();
         kksx.stroke();
 
