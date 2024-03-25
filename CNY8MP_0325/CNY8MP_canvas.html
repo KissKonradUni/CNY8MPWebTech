@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+
+        main {
+            display: block;
+            width: fit-content;
+            border-bottom: 4px solid gray;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rajzolás a vászonra - CNY8MP</h1>
+    </header>
+    <main>
+        <canvas width="700" height="350" id="KKScanvas"></canvas>
+    </main>
+    <footer>
+        <h3>Források: </h3>
+        <p><a href="https://www.w3schools.com/html/html5_canvas.asp">https://www.w3schools.com/html/html5_canvas.asp</a></p>
+        <p><a href="https://www.w3schools.com/tags/ref_canvas.asp">https://www.w3schools.com/tags/ref_canvas.asp</a></p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage">https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage</a></p>
+    </footer>
+    <script>
+        const kks = document.getElementById('KKScanvas');
+        /** @type {CanvasRenderingContext2D} */
+        const kksx = kks.getContext('2d');
+
+        kksx.fillStyle = 'orange';
+        kksx.font = '30px Arial';
+
+        kksx.fillText('Mérnökinformatika 2024', 200, 40);
+
+        const gradient = kksx.createRadialGradient(200, 120, 20, 250, 150, 100);
+        gradient.addColorStop(0, 'yellow');
+        gradient.addColorStop(0.25, 'orange');
+        gradient.addColorStop(0.5, 'blue');
+        gradient.addColorStop(1, 'green');
+
+        kksx.fillStyle = gradient;
+        kksx.fillRect(100, 60, 200, 120);
+
+        kksx.strokeStyle = 'blue';
+        kksx.lineWidth = 5;
+
+        kksx.beginPath();
+        kksx.rect(80, 200, 240, 140);
+        kksx.stroke();
+
+        kksx.fillStyle = 'yellow';
+        kksx.lineWidth = 3;
+
+        kksx.beginPath();
+        kksx.arc(500, 140, 70, Math.PI * 0.3, Math.PI * 1.5);
+        kksx.fill();
+        kksx.stroke();
+
+        const img = new Image();
+        img.src = './kepek/iit.jpg';
+        img.onload = () => {
+            kksx.drawImage(
+                img, 500, 230, 200, 120,
+            );
+        }
+    </script>
+</body>
+</html>
