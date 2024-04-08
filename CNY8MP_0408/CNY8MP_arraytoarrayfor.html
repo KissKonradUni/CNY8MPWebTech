@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tömbökön belüli tömbök ciklusa</title>
+</head>
+<body>
+    <h1>Tömbökön belüli tömbök ciklusa</h1>
+    <div id="jsonRenderer">
+
+    </div>
+    <script>
+        const KKSObj = {
+            "name": "Kiss Konrád Soma",
+            "age": 20,
+            "cars": [
+                {"name": "Toyota", "models": ["CHR", "Corolla", "Proace"]},
+                {"name": "Ford", "models": ["Kuga", "Mondeo", "Mustang"]},
+                {"name": "BMW", "models": ["320", "X3", "X5"]},
+                {"name": "Fiat", "models": ["500", "Panda", "Tipo"]}
+            ]
+        }
+
+        const jsonRenderer = document.getElementById('jsonRenderer');
+
+        const h2 = document.createElement('h2');
+        h2.innerHTML = `<span><b>${KKSObj["name"]}</b></span> (${KKSObj["age"]})`;
+        jsonRenderer.appendChild(h2);
+
+        // KKSObj["cars"].forEach(car => {
+        //     const h3 = document.createElement('h3');
+        //     h3.innerHTML = `<span><b>${car["name"]}</b></span>:`;
+        //     jsonRenderer.appendChild(h3);
+        //
+        //     const ul = document.createElement('ul');
+        //     ul.innerHTML = `<li>${car["models"].join("</li><li>")}</li>`;
+        //     jsonRenderer.appendChild(ul);
+        // });
+
+        for(let i = 0; i < KKSObj["cars"].length; i++) {
+            const h3 = document.createElement('h3');
+            h3.innerHTML = `<span><b>${KKSObj["cars"][i]["name"]}</b></span>:`;
+            jsonRenderer.appendChild(h3);
+
+            const ul = document.createElement('ul');
+            jsonRenderer.appendChild(ul);
+
+            for(let j = 0; j < KKSObj["cars"][i]["models"].length; j++) {
+                const li = document.createElement('li');
+                li.innerHTML = KKSObj["cars"][i]["models"][j];
+                ul.appendChild(li);
+            }
+        }
+    </script>
+</body>
+</html>

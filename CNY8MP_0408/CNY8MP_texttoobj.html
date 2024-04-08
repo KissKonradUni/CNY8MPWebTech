@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Text konvertálása JavaScript objektum</title>
+</head>
+<body>
+    <h1>JSON Text konvertálása JavaScript objektum</h1>
+    <div id="jsonRenderer">
+
+    </div>
+</body>
+<script>
+    const jsonRenderer = document.getElementById('jsonRenderer');
+
+    const jsonTextKKS = `
+    {
+        "egyetem": "Miskolci Egyetem",
+        "város": "Miskolc",
+        "irányítószám": "3515",
+        "név": "Kiss Konrád Soma"
+    }`;
+
+    const jsonObj = JSON.parse(jsonTextKKS);
+
+    for (const key in jsonObj) {
+        const p = document.createElement('p');
+        p.innerHTML = `<span><b>${key}</b></span>: ${jsonObj[key]}`;
+        jsonRenderer.appendChild(p);
+    }
+</script>
+</html>

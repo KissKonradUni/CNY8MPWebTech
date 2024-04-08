@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Text konvertálása JavaScript objektum</title>
+    <style> 
+        #jsonString {
+            line-break: anywhere;
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Text konvertálása JavaScript objektum</h1>
+    <div id="jsonString" style="font-family: monospace;">
+
+    </div>
+
+    <div id="jsonRenderer">
+
+    </div>
+</body>
+<script>
+    const jsonRenderer = document.getElementById('jsonRenderer');
+
+    let jsonTextKKS = ""; 
+
+    fetch('./CNY8MP_konyv.json')
+        .then(response => response.text())
+        .then(data => {
+            jsonTextKKS = data;
+            render();
+        });
+
+    function render() {
+        const jsonObj = JSON.parse(jsonTextKKS);
+        Array.from(jsonObj["konyvek"]["konyv"]).forEach(konyv => {
+            const p = document.createElement('p');
+            p.innerHTML = `<span><b>${konyv["iro"]}</b></span>: ${konyv["cim"]}, ${konyv["kiadas"]};`;
+            jsonRenderer.appendChild(p);
+        });
+
+        const jsonStringDiv = document.getElementById('jsonString');
+        jsonStringDiv.innerHTML = jsonTextKKS;
+    }
+</script>
+</html>

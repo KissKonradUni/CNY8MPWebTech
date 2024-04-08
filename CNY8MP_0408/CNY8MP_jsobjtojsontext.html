@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON megvalósítása – JavaScript</title>
+</head>
+<body>
+    <h1>JSON megvalósítása – JavaScript</h1>
+    <div class="jsonText" style="font-family: monospace;">
+ 
+    </div>
+</body>
+<script>
+    const jsonObjKKS = {
+        egyetem: "Miskolci Egyetem",
+        város: "Miskolc",
+        irányítószám: "3515",
+        név: "Kiss Konrád Soma"
+    }
+
+    const jsonText = JSON.stringify(jsonObjKKS, null, 4);
+
+    const jsonTextDiv = document.querySelector('.jsonText');
+    jsonTextDiv.innerHTML = jsonText;
+</script>
+</html>
