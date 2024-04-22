@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="CNY8MP_1.js" defer></script>
+    <title>jQuery feladatok - Animáció</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 120px;
+            padding: 20px;
+            
+            background-color: #44ffaa;
+            
+            position: relative;
+
+            font-weight: bold;
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery feladatok - Animáció</h1>
+    <button onclick="anim()">Animáció indítása</button>
+    <button onclick="$('p').hide()">Bekezdések elrejtése</button>
+    <button onclick="toggle()">Összecsuk / Kinyit</button>
+    <p>
+        <b>A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni.</b>
+    </p>
+    <p>Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja.</p>
+    <p>
+        <b>Effekteket és animációt adhatunk HTML elemeikhez. Számtalan plugint írtak hozzá.</b>
+    </p>
+    <div class="box">
+        ME GEIK-PTI
+    </div>
+</body>
+</html>
