@@ -1,0 +1,342 @@
+{
+    "kurzusok": [
+        {
+            "kurzusnev": "Web technológia alapjai",
+            "oktato": "Dr. Agárdi Anita",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Hétfő",
+                "tol": "8:00",
+                "ig" : "9:30"
+            },
+            "helyszin": "X. előadó",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Szoftvertechnológia",
+            "oktato": "Dr. Tompa Tamás",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Hétfő",
+                "tol": "10:00",
+                "ig" : "11:30"
+            },
+            "helyszin": "Infó/202.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Web technológia alapjai",
+            "oktato": "Dr. Bednarik László",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Hétfő",
+                "tol": "12:00",
+                "ig" : "13:30"
+            },
+            "helyszin": "Infó/103.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Modern Fizika",
+            "oktato": "Dr. Kovács Endre",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Kedd",
+                "tol": "8:00",
+                "ig" : "9:30"
+            },
+            "helyszin": "A/1 320.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "C# programozás",
+            "oktato": "Smid László Tamás",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Kedd",
+                "tol": "10:00",
+                "ig" : "11:30"
+            },
+            "helyszin": "Infó/103.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Adatbázisrendszerek II.",
+            "oktato": "Szűcs Miklós",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Kedd",
+                "tol": "12:00",
+                "ig" : "13:30"
+            },
+            "helyszin": "Infó/103.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Szoftvertechnológia",
+            "oktato": "Dr. Tompa Tamás",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Szerda",
+                "tol": "8:00",
+                "ig" : "9:30"
+            },
+            "helyszin": "XXX. előadó",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Adatbázisrendszerek II.",
+            "oktato": "Dr. Kovács László József",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Szerda",
+                "tol": "10:00",
+                "ig" : "11:30"
+            },
+            "helyszin": "XXXVII. előadó",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Biztonság és védelem a szamítástechnikában",
+            "oktato": "Wagner György",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Szerda",
+                "tol": "12:00",
+                "ig" : "13:30"
+            },
+            "helyszin": "XXXIII. előadó",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Optimalizálás",
+            "oktato": "Dr. Körei Attila",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Szerda",
+                "tol": "14:00",
+                "ig" : "15:30"
+            },
+            "helyszin": "XXXIII. előadó",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Biztonság és védelem a szamítástechnikában",
+            "oktato": "Wagner György",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Csütörtök",
+                "tol": "8:00",
+                "ig" : "9:30"
+            },
+            "helyszin": "Infó/101.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "Optimalizálás",
+            "oktato": "Dr. Körei Attila",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Csütörtök",
+                "tol": "10:00",
+                "ig" : "11:30"
+            },
+            "helyszin": "A/1 227.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        },
+        {
+            "kurzusnev": "C# programozás",
+            "oktato": "Smid László Tamás",
+            "szak": "GÉIK Mérnökinformatikus",
+            "idopont": {
+                "nap": "Csütörtök",
+                "tol": "12:00",
+                "ig" : "13:30"
+            },
+            "helyszin": "Infó/103.",
+            "cim": {
+                "irsz": "1021",
+                "varos": "Miskolc",
+                "utca": "Egyetemváros"
+            },
+            "telefonszamok": [
+                {
+                    "tipus": "mobil",
+                    "szam": "06-30-123-4567"
+                },
+                {
+                    "tipus": "vezetékes",
+                    "szam": "06-46-565-111"
+                }
+            ]
+        }
+    ]
+}

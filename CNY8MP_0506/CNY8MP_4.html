@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/jquery-ui-1.13.3/jquery-ui.min.js"></script>
+    <script src="CNY8MP_4.js" defer></script>
+    <link rel="stylesheet" href="lib/jquery-ui-1.13.3/jquery-ui.min.css">
+    <title>jQuery feladatok - Animáció</title>
+    <style>
+        .box, .box2 {
+            width: 300px;
+            height: 120px;
+            padding: 20px;
+            
+            background-color: #44ffaa;
+            
+            position: relative;
+
+            font-weight: bold;
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>A CNY8MP_0422 feladati újragondolva</h1>
+    <p>jQuery widgetek közül az accordiont használtam a 2 feladat megjelenítésére, <br>
+       illetve a gombokat is jQuery UI segítségével hoztam létre.</p>
+    <div id="accordion">
+        <h3>Első feladat</h3>
+        <div>
+            <h1>jQuery feladatok - Animáció</h1>
+            <button class="ui-button ui-widget ui-corner-all" onclick="anim()">Animáció indítása</button>
+            <button class="ui-button ui-widget ui-corner-all" onclick="$('p').hide()">Bekezdések elrejtése</button>
+            <button class="ui-button ui-widget ui-corner-all" onclick="toggle()">Összecsuk / Kinyit</button>
+            <p>
+                <b>A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni.</b>
+            </p>
+            <p>Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja.</p>
+            <p>
+                <b>Effekteket és animációt adhatunk HTML elemeikhez. Számtalan plugint írtak hozzá.</b>
+            </p>
+            <div class="box">
+                ME GEIK-PTI
+            </div>
+        </div>
+        <h3>Második feladat</h3>
+        <div>
+            <h1>jQuery feladatok - Attribútum</h1>
+            <button class="ui-button ui-widget ui-corner-all" id="text">Szöveg</button>
+            <button class="ui-button ui-widget ui-corner-all" id="html">HTML kód</button>
+            <button class="ui-button ui-widget ui-corner-all" id="value">Érték</button>
+            <button class="ui-button ui-widget ui-corner-all" id="param" data="terület">Paraméter</button>
+            <br><br>
+            <div class="box2">
+                ME GEIK-PTI <br>
+                <br>
+                .....
+            </div>
+            <br>
+            <form action="">
+                <br>
+                <label for="">Név: 
+                    <input type="text" id="nev" value="">
+                </label><br><br>
+                <label for="">E-mail: 
+                    <input type="text" id="email" value="">
+                </label><br><br>
+                <label for="">Jelszó:
+                    <input type="password" id="jelszo" value="">
+                </label><br><br><br>
+                <button type="button" id="join" class="ui-button ui-widget ui-corner-all">Jelentkezés</button>
+            </form>
+            <p>Forrás: <a href="https://www.tutorialspoint.com/jquery/index.htm">https://www.tutorialspoint.com/jquery/index.htm</a></p>
+        </div>
+    </div>
+    <script>
+        $( "#accordion" ).accordion({
+            active: 0
+        });
+    </script>
+</body>
+</html>
