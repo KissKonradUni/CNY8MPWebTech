@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Nem található a fájl</title>
+</head>
+<body>
+    <h1>404 - Nem található a fájl</h1>
+    <p><b id="file"></b></p>
+    <p>A keresett fájl nem található a szerveren.</p>
+    <p><a href="/">Vissza a főoldalra</a></p>
+    <script>
+        document.getElementById("file").innerText = window.location.href;
+    </script>
+</body>
+</html>
